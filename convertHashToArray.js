@@ -14,3 +14,9 @@ function convertHashToArray(hash){
   }
   return newArr;
 }
+
+
+var object = {name: 'Jeremy', age: 24, role: 'Software Engineer'}
+
+convertHashToArray(object)
+//[["name", "Jeremy"], ["age", 24], ["role", "Software Engineer"]]
