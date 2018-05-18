@@ -23,4 +23,4 @@ function oddOrEven(array) {
   else {
     return 'odd';
   }
-}
+} 
